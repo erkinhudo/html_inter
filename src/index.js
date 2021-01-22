@@ -9,7 +9,8 @@ import "./assets/style.css";
 class Html_inter extends Component {
     render() {
         return (
-            <div>
+            <div className = "container">
+             <div className="title" >HTML Interview Question</div>
                 
             </div>
         )
