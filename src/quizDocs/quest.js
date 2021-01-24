@@ -53,5 +53,6 @@ const quest=[
 
 ];
 
+
 export default (n = 1) =>
   Promise.resolve(quest.sort(() => 0.1 - Math.random()).slice(0, n));
